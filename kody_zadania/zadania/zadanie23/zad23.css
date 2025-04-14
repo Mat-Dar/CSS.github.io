@@ -1,0 +1,37 @@
+p#pogrubienie_kaczorowski
+{
+    font-size: 34px;
+    color:#863BD1;
+}
+p#pochylone_kaczorowski
+{
+font-size: 39px;
+color:#9A6D1D;
+}
+p#index_gorny_kaczorowski
+{
+    vertical-align:super;
+    font-size:1.4cm;
+    color:#958D18;
+}
+p#index_dolny_kaczorowski
+{
+    vertical-align: sub;
+    font-size: 2.3cm;
+    color:rgb(18%,94%,88%);
+}
+p#mono_kaczorowski
+{
+    font-size: 44px;
+    color:#2D796D;
+}
+p#powiekszenie_kaczorowski
+{
+    font-size: 30px;
+    color: #673D9F;
+}
+p#pomniejszenie_kaczorowski
+{
+    font-size: 32px;
+    color:rgb(70%,63%,21%);
+}
