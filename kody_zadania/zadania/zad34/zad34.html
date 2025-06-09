@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Zadanie 34 - Model Pudełkowy</title>
+    <style>
+        body {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+        }
+
+        .blok {
+            position: absolute;
+            padding: 10px;
+        }
+
+        .blok-gorny {
+            width: 400pt;
+            height: 3cm;
+            background: rgb(255, 165, 0); 
+            border: 3px #FF0000; 
+            border-bottom: 4px #FF0000; 
+            border-left: 11px #FFFF00;
+            border-right: 6px #008080; 
+            text-align: center;
+            font-size: 14px;
+            top: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+            border-style: groove;
+        }
+
+        .blok-srodkowy {
+            width: 280pt;
+            height: 4cm;
+            background: rgb(255, 165, 0); 
+            border: 1px #800000; 
+            text-align: center;
+            font-size: 14px;
+            left: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            border-style: ridge;
+        }
+
+    </style>
+<link rel="stylesheet" type="text/css" href="gado_zadanie34.css">
+</head>
+<body>
+    <div class="blok blok-gorny"> <b>Gadomska: </b>
+            width: 400pt;
+            height: 3cm;
+            background: rgb(255, 165, 0); 
+            border: 3px #FF0000; 
+            border-bottom: 4px #FF0000; 
+            border-left: 11px #FFFF00;
+            border-right: 6px #008080; 
+            text-align: center;
+            font-size: 14px;
+            top: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+            border-style: groove;
+</div> 
+    <div class="blok blok-srodkowy"><b>Lena: </b> <br>
+            width: 280pt;
+            height: 4cm;
+            background: rgb(255, 165, 0); 
+            border: 1px #800000; 
+            text-align: center;
+            font-size: 14px;
+            left: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            border-style: ridge;
+</div>
+
+    <div class="blok blok-dolny"><b> Numer w dzienniku 5 , klasa: 2F </b>  <br>
+            width: 350pt; 
+            height: 2cm; 
+            background: rgb(255, 165, 0); 
+            border: 3px #FF00FF;
+            border-style: ridge; 
+            text-align: center; 
+            font-size: 12px; 
+            right: 10px;
+            bottom: 10px;
+	          border-style: ridge;
+</div>
+ <!-- Lena Gadomska, 11:03, 02.06.2026 -->
+</body>
+</html>
